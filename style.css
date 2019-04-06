@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;box-sizing: border-box}
+.container{
+    width: 90%;
+    margin:auto;
+}
+.dropZone,.dragZone{
+    width: 47.5%;
+    float: left;
+    border: 1px solid #ddd;
+    height: 400px;
+}
+.dropZone{
+    margin-right:5%
+}
+.dragItem,.dropFields{
+    width: 22.5%;
+    height: 180px;
+    float: left;
+    margin: 10px;
+    border: 1px dashed brown;
+}
+.dropFields .dragItem{
+    width: 100%;
+    margin: 0
+
+}
+.dragItem{
+    line-height: 180px;
+    text-align: center;
+    background: #ddd;
+}
